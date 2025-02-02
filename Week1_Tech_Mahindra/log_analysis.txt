@@ -1,0 +1,8 @@
+Merging and Splitting Bins: Large bins can be split into smaller bins for ERROR better organization, and smaller bins can be merged for easier access, keeping the project tidy and manageable.ERROR
+ERROR
+WARNING
+WARNING
+
+Summary of keyword occurrences:
+ERROR: 2
+WARNING: 2
