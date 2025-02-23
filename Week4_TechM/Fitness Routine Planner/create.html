@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Routine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="create-background">
+    <header>
+        <h1>Create Your Workout Routine</h1>
+    </header>
+
+    <main class="create">
+        <h2>Create New Routine</h2>
+        <input type="text" id="exerciseName" placeholder="Exercise Name"><br>
+        <input type="number" id="duration" placeholder="Duration (min)"><br>
+        <button onclick="addExercise()">Add Exercise</button><br>
+        <ul id="exerciseList"></ul><br>
+        <button onclick="saveCurrentRoutine()">Save Routine</button>
+        <div id="successMessage" class="success-message">Routine saved successfully!</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fitness Routine Planner</p>
+        <a href="index.html" class="back-button">Back to Main</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+
+header {
+    background-color: #222;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+nav button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #444;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #666;
+}
+
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.create{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.back-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #666;
+}
+
+
+.success-message {
+    background: #28a745;
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display: none;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    margin-top: 2rem;
+}
+
+.create-background {
+    background: url('routine.jpg') no-repeat center center/cover;
+    color: black; 
+}
+
+
+.create-background main {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.create-background header {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.routine-background {
+    background: url('rou.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.routine-background main {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 80%;
+    text-align: center;
+}
+
+
+#routineList {
+    list-style: none;
+    padding: 0;
+}
+
+
+.routine-item {
+    background: rgba(16, 8, 8, 0.9);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(147, 133, 133);
+}
+
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
+
+
+.back-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #666;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.progress-background {
+    background: url('prog.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.progress-background main {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 80%;
+    text-align: center;
+}
+
+
+#progressChart {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.back-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #666;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}

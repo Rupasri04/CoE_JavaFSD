@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="progress-background">
+    <header>
+        <h1>Track Your Progress</h1>
+    </header>
+
+    <main>
+        <h2>Progress Tracker</h2>
+        <label for="weight">Enter Your Weight (kg):</label>
+        <input type="number" id="weight">
+        <button onclick="addProgress()">Add Progress</button>
+
+        <canvas id="progressChart"></canvas>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fitness Routine Planner</p>
+        <a href="index.html" class="back-button">Back to Main</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
